@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+.container {
+  width: 1440px;
+  height: 1024px;
+  padding-right: 157px;
+  background: #fdf8e9;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+  position: relative;
+}
+
+.side-panel {
+  width: 316px;
+  height: 1049px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background: #ad7958;
+  border-radius: 32px;
+}
+
+.rotate-line {
+  width: 27px;
+  height: 0;
+  left: 325px;
+  top: 503px;
+  position: absolute;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+  color: black;
+  border: #0d0c0c solid;
+  border-radius: 25%;
+}
+
+.title {
+  width: 375px;
+  height: 71px;
+  left: 688px;
+  top: 280px;
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  font-family: Jua;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.new-entry {
+  width: 104px;
+  height: 22px;
+  left: 76px;
+  top: 20px;
+  position: absolute;
+  text-align: center;
+  color: #fdf8e9;
+  font-size: 20px;
+  font-family: Jua;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.entry-icon {
+  width: 15.40px;
+  height: 15.40px;
+  padding: 0.55px;
+  left: 180px;
+  top: 24px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.circle {
+  width: 14.30px;
+  height: 14.30px;
+  position: relative;
+}
+
+.circle div {
+  position: absolute;
+  border: 1.10px #fdf8e9 solid;
+}
+
+.form-background {
+  width: 847px;
+  height: 62px;
+  left: 452px;
+  top: 943px;
+  position: absolute;
+  background: #fdf8e9;
+  border-radius: 13px;
+  border: 1px #537024 solid;
+}
+
+.message {
+  width: 755px;
+  height: 105px;
+  left: 544px;
+  top: 334px;
+  position: absolute;
+  color: black;
+  font-size: 24px;
+  font-family: Jua;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.info {
+  width: 678px;
+  height: 105px;
+  left: 544px;
+  top: 437px;
+  position: absolute;
+  color: black;
+  font-size: 24px;
+  font-family: Jua;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.message-box {
+  width: 218px;
+  height: 40px;
+  left: 470px;
+  top: 965px;
+  position: absolute;
+  color: rgba(83, 112, 36, 0.50);
+  font-size: 24px;
+  font-family: Jua;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.user-icon {
+  width: 48px;
+  height: 48px;
+  left: 34px;
+  top: 965px;
+  position: absolute;
+}
+
+.user-icon div {
+  position: absolute;
+  border-radius: 9999px;
+  border: 2px #fdf8e9 solid;
+}
+
+.username {
+  width: 197px;
+  height: 34px;
+  left: 92px;
+  top: 978px;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-family: Jua;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.main-img {
+  width: 265px;
+  height: 170px;
+  left: 751px;
+  top: 110px;
+  position: absolute;
+}
+
+.logo {
+  width: 66.25px;
+  height: 42.50px;
+  left: 19px;
+  top: 14px;
+  position: absolute;
+}
